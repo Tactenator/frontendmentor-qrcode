@@ -9,8 +9,8 @@ body
 
 .card
 {
-    height: 550px;
-    width: 18%; 
+     
+    max-width: 350px; 
     background: #ffffff; 
     margin-right: auto; 
     margin-left: auto;
@@ -19,19 +19,15 @@ body
     padding: 15px; 
 }
 
-.code-container
+.card img
 {
-    text-align: center; 
-}
-
-.qr-code
-{
-    height: 62%;
-    width: 95%;
+    display: block; 
+    margin: 0 auto; 
     border-radius: 20px;
+    max-height: 350px; 
 }
 
-.heading{
+.card h1{
     font-size: 26px;
     padding: 12px;
     margin-top: 5px;   
@@ -39,12 +35,11 @@ body
     
 }
 
-.subtext
+.card p
 {
     color: hsl(220, 15%, 55%);
     text-align: center; 
-    padding: 20px; 
+    
     font-size: 18px; 
 }
 
-/* #a8aeb9 lower text color*/
